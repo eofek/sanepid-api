@@ -21,4 +21,8 @@ public class ReportService {
     public List<Report> getAllReports() {
         return reportRepository.findAll();
     }
+
+    public Report getReportByDay(String day) {
+        return reportRepository.findByDay(day);
+    }
 }

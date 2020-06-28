@@ -26,4 +26,9 @@ public class ReportController {
         return reportService.getAllReports();
     }
 
+    @GetMapping("/day/{day}")
+    public Report reportByDay(@PathVariable String day){
+        return reportService.getReportByDay(day);
+    }
+
 }
