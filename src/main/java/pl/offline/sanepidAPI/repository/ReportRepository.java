@@ -1,4 +1,4 @@
-package pl.offline.repository;
+package pl.offline.sanepidAPI.repository;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;

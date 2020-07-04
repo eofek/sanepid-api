@@ -1,8 +1,8 @@
-package pl.offline.service;
+package pl.offline.sanepidAPI.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import pl.offline.repository.ReportRepository;
+import pl.offline.sanepidAPI.repository.ReportRepository;
 import pl.offline.sanepidAPI.Report;
 import java.util.*;
 
